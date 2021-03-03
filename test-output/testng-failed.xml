@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Execution]">
+  <parameter name="browser" value="ie"/>
+  <test name="MIGuide-3(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="com.ugc.scripts.RAPidLinkHeaderPreferences">
+        <methods>
+          <include name="first"/>
+          <include name="first"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="close"/>
+          <include name="tearDownFirefox"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- com.ugc.scripts.RAPidLinkHeaderPreferences -->
+      <class name="com.ugc.scripts.RapidLinkHeaderUGCORPCOM_Navigation">
+        <methods>
+          <include name="first"/>
+          <include name="tearDown"/>
+          <include name="close"/>
+          <include name="RapidLink_Header_UGCORPCOM_Navigation"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- com.ugc.scripts.RapidLinkHeaderUGCORPCOM_Navigation -->
+    </classes>
+  </test> <!-- MIGuide-3(failed) -->
+</suite> <!-- Failed suite [Execution] -->

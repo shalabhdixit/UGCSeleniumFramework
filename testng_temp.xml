@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Execution" verbose="0" >
+	<test name="MIGuide" >
+	
+		<parameter name="browser" value="firefox" />
+		<!-- <parameter name="browser" value="chrome" /> -->
+		<!-- <parameter name="browser" value="ie" /> -->
+		<classes>
+		
+			<class name="com.ugc.scripts.PaymentComparison_BorrowerPaid_SplitPremiumMonthly" />
+			<class name="com.ugc.scripts.UploadFannieMae_NewQuote" />
+			<class name="com.ugc.scripts.RemoveMyAccountLinkInRL_ForMIGNGUsers" />
+			<class name="com.ugc.scripts.MIGNGtoDelegatedLinktoLegacy_Delegated_ALL" />
+			<class name="com.ugc.scripts.MIGNGtoDelegatedCertFinderFindCertificate" />
+			<class name="com.ugc.scripts.MIGNGtoDelegatedNewApplication" />
+			<class name="com.ugc.scripts.MIGNGtoDelegatedResubmit" />
+			<class name="com.ugc.scripts.RapidLinkHeaderUGCORPCOM_Navigation" />
+			<class name="com.ugc.scripts.MIGNG_toDelegatedUpload" />
+			<class name="com.ugc.scripts.RapidLinkHeaderLinksBasedOnRole_MIGNGorLegacy" />
+			<class name="com.ugc.scripts.MIGNGtoDelegatedCertFinderLink" />
+			<class name="com.ugc.scripts.LinkToServicing_PortfolioNavigation" />
+			<class name="com.ugc.scripts.PaymentComparison_BorrowerPaid_SplitPremiumMonthly" />
+			<class name="com.ugc.scripts.UploadFannieMae_NewQuote" />
+		</classes>
+	</test><!-- 
+	<test name="MIGuide2" >
+	
+		<parameter name="browser" value="firefox" />
+		<parameter name="browser" value="chrome" />
+		<parameter name="browser" value="ie" />
+		<classes>
+		
+			<class name="com.ugc.scripts.UploadFannieMae_NewQuote" />
+			<class name="com.ugc.scripts.PaymentComparison_BorrowerPaid_SplitPremiumMonthly" />
+			<class name="com.ugc.scripts.RemoveMyAccountLinkInRL_ForMIGNGUsers" />
+			<class name="com.ugc.scripts.MIGNGtoDelegatedLinktoLegacy_Delegated_ALL" />
+			<class name="com.ugc.scripts.MIGNGtoDelegatedCertFinderFindCertificate" />
+			<class name="com.ugc.scripts.MIGNGtoDelegatedNewApplication" />
+			<class name="com.ugc.scripts.MIGNGtoDelegatedResubmit" />
+			<class name="com.ugc.scripts.MIGNG_toDelegatedUpload" />
+			<class name="com.ugc.scripts.PaymentComparison_BorrowerPaid_SplitPremiumMonthly" />
+			<class name="com.ugc.scripts.UploadFannieMae_NewQuote" />
+			<class name="com.ugc.scripts.RapidLinkHeaderUGCORPCOM_Navigation" />
+			<class name="com.ugc.scripts.RapidLinkHeaderLinksBasedOnRole_MIGNGorLegacy" />
+			<class name="com.ugc.scripts.MIGNGtoDelegatedCertFinderLink" />
+			<class name="com.ugc.scripts.LinkToServicing_PortfolioNavigation" />
+		</classes>
+	</test>
+	<test name="MIGuide1" >
+	
+		<parameter name="browser" value="firefox" />
+		<parameter name="browser" value="chrome" />
+		<parameter name="browser" value="ie" />
+		<classes>
+		
+			<class name="com.ugc.scripts.UploadFannieMae_NewQuote" />
+			<class name="com.ugc.scripts.PaymentComparison_BorrowerPaid_SplitPremiumMonthly" />
+			<class name="com.ugc.scripts.RemoveMyAccountLinkInRL_ForMIGNGUsers" />
+			<class name="com.ugc.scripts.MIGNGtoDelegatedLinktoLegacy_Delegated_ALL" />
+			<class name="com.ugc.scripts.MIGNGtoDelegatedCertFinderFindCertificate" />
+			<class name="com.ugc.scripts.MIGNGtoDelegatedNewApplication" />
+			<class name="com.ugc.scripts.MIGNGtoDelegatedResubmit" />
+			<class name="com.ugc.scripts.MIGNG_toDelegatedUpload" />
+			<class name="com.ugc.scripts.PaymentComparison_BorrowerPaid_SplitPremiumMonthly" />
+			<class name="com.ugc.scripts.UploadFannieMae_NewQuote" />
+			<class name="com.ugc.scripts.RapidLinkHeaderUGCORPCOM_Navigation" />
+			<class name="com.ugc.scripts.RapidLinkHeaderLinksBasedOnRole_MIGNGorLegacy" />
+			<class name="com.ugc.scripts.MIGNGtoDelegatedCertFinderLink" />
+			<class name="com.ugc.scripts.LinkToServicing_PortfolioNavigation" />
+		</classes>
+	</test>
+ --></suite>

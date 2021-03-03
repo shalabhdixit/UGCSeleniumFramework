@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Execution" verbose="0" >
+	<test name="MIGuide-3" >
+		<parameter name="browser" value="ie" />
+		<classes>
+<!-- 			<class name="com.ugc.scripts.TC_001_NGQ_External_NewQuotes_BPA" />
+			<class name="com.ugc.scripts.TC_002_NGQ_External_NewQuotes_BPM" />
+			<class name="com.ugc.scripts.TC_003_NGQ_External_NewQuotes_BPSNR" />
+			<class name="com.ugc.scripts.TC_004_NGQ_External_NewQuotes_BPSR" />
+			<class name="com.ugc.scripts.TC_005_NGQ_External_NewQuotes_BPSplit" />
+			<class name="com.ugc.scripts.TC_006_NGQ_External_NewQuotes_LPA" />
+			<class name="com.ugc.scripts.TC_007_NGQ_External_NewQuotes_LPM" />
+			<class name="com.ugc.scripts.TC_008_NGQ_External_NewQuotes_LPS" />	
+			<class name="com.ugc.scripts.LinkToServicing_PortfolioNavigation" />
+			<class name="com.ugc.scripts.LinkToServicing_ReportsLink" />
+			<class name="com.ugc.scripts.SearchBy_UGID" />
+			<class name="com.ugc.scripts.Pipeline_Application_Submitted_Withquote" />
+			<class name="com.ugc.scripts.Pipeline_LastUpdate_DateFormat" />
+			<class name="com.ugc.scripts.Pipeline_LastUpdate_ReverseSorting" />
+			<class name="com.ugc.scripts.QuoteCreation_QuoteNumberDisplayedAfterGetQuote" />			
+			<class name="com.ugc.scripts.Quoting_VerifyProperty_StreetAddressCity_Kentucky" />
+			<class name="com.ugc.scripts.PaymentComparison_SwitchPaymentTypeOption_NewQuote" />
+			<class name="com.ugc.scripts.Quapper_NewQuoteAndApplication" />
+			<class name="com.ugc.scripts.Quapper_ExistingQuoteAndApplication" />
+			<class name="com.ugc.scripts.ResubmitQuote_SuccessfulQuote" />
+			<class name="com.ugc.scripts.ResubmitQuote_UnSuccessfulQuote" />
+			<class name="com.ugc.scripts.QuotePdf_SelectProduct_Inelegible" />
+			<class name="com.ugc.scripts.QuotePdf_Unknown_NewQuote" />
+			<class name="com.ugc.scripts.QuotePdf_Unknown_ModifyQuote" />
+			<class name="com.ugc.scripts.QuotePdf_StateTaxes" />
+			<class name="com.ugc.scripts.NewApplication_CreateNewApplication_BPA" />
+			<class name="com.ugc.scripts.NewApplication_CreateNewApplication_BPM" />
+			<class name="com.ugc.scripts.NewApplication_CreateNewApplication_LPA" />
+			<class name="com.ugc.scripts.NewApplication_CreateNewApplication_LPM" />
+			<class name="com.ugc.scripts.NewApplication_CreateNewApplication_LPS" />
+			<class name="com.ugc.scripts.NewApplication_CreateNewApplication_BPSL" />
+			<class name="com.ugc.scripts.NewApplication_CreateNewApplication_BPSN" />
+			<class name="com.ugc.scripts.NewApplication_CreateNewApplication_BPSM" />
+			<class name="com.ugc.scripts.UploadDocument_NoDocsUploaded_ExistingApplication" />
+			<class name="com.ugc.scripts.UploadDocument_NoDocsUploaded_NewApplication" />
+			<class name="com.ugc.scripts.UploadDocument_MultipleDocs_ExistingApplication" />
+			<class name="com.ugc.scripts.UploadDocument_MultipleDocs_NewApplication" />
+			<class name="com.ugc.scripts.UploadDocument_ErrorDuringUploadBigFile_ExistingApplication" />
+			<class name="com.ugc.scripts.UploadDocument_ErrorDuringUploadBigFile_NewApplication" />
+			<class name="com.ugc.scripts.UploadDocument_RemoveDocumentFromApplication" />
+			<class name="com.ugc.scripts.QuotePdf_NewQuote" />
+			<class name="com.ugc.scripts.QuotePdf_ExistingQuote" />
+			<class name="com.ugc.scripts.PaymentComparison_BorrowerPaid_SplitPremiumMonthly" />
+			<class name="com.ugc.scripts.UploadFannieMae_NewQuote" /> -->
+			<class name="com.ugc.scripts.RAPidLinkHeaderPreferences" />
+			<class name="com.ugc.scripts.RapidLinkHeaderUGCORPCOM_Navigation" />
+<!-- 			<class name="com.ugc.scripts.RapidLinkHeaderLinksBasedOnRole_MIGNGorLegacy" /> 
+			<class name="com.ugc.scripts.RemoveMyAccountLinkInRL_ForMIGNGUsers" />
+			<class name="com.ugc.scripts.MIGNGtoDelegatedLinktoLegacy_Delegated_ALL" /> 
+			<class name="com.ugc.scripts.MIGNGtoDelegatedSignOutFromMIGNG" />
+			<class name="com.ugc.scripts.MIGNGtoDelegatedSignOutFromRAPidLink" /> 			
+			<class name="com.ugc.scripts.MIGNGtoDelegatedCertFinderLink" />
+			<class name="com.ugc.scripts.MIGNGtoDelegatedCertFinderFindCertificate" />
+			<class name="com.ugc.scripts.MIGNGtoDelegatedNewApplication" />
+			<class name="com.ugc.scripts.MIGNGtoDelegatedResubmit" />
+			<class name="com.ugc.scripts.MIGNG_toDelegatedUpload" /> -->
+		</classes>
+	</test>
+</suite>

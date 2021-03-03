@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Execution" duration-ms="1309602" started-at="2016-09-28T09:20:20Z" finished-at="2016-09-28T09:42:10Z">
+    <groups>
+    </groups>
+    <test name="MIGuide-3" duration-ms="1309602" started-at="2016-09-28T09:20:20Z" finished-at="2016-09-28T09:42:10Z">
+      <class name="com.ugc.scripts.RAPidLinkHeaderPreferences">
+        <test-method status="PASS" signature="first(org.testng.ITestContext)[pri:0, instance:com.ugc.scripts.RAPidLinkHeaderPreferences@26be92ad]" name="first" is-config="true" duration-ms="62" started-at="2016-09-28T05:20:20Z" finished-at="2016-09-28T05:20:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@50313382]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first -->
+        <test-method status="PASS" signature="first(org.testng.ITestContext, java.lang.String)[pri:0, instance:com.ugc.scripts.RAPidLinkHeaderPreferences@26be92ad]" name="first" is-config="true" duration-ms="6710" started-at="2016-09-28T05:20:20Z" finished-at="2016-09-28T05:20:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@50313382]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first -->
+        <test-method status="PASS" signature="reportHeader(java.lang.reflect.Method, org.testng.ITestContext, java.lang.String)[pri:0, instance:com.ugc.scripts.RAPidLinkHeaderPreferences@26be92ad]" name="reportHeader" is-config="true" duration-ms="46" started-at="2016-09-28T05:20:27Z" finished-at="2016-09-28T05:20:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ugc.scripts.RAPidLinkHeaderPreferences.RAPidLinkHeaderPreference() throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@50313382]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportHeader -->
+        <test-method status="PASS" signature="RAPidLinkHeaderPreference()[pri:0, instance:com.ugc.scripts.RAPidLinkHeaderPreferences@26be92ad]" name="RAPidLinkHeaderPreference" duration-ms="1299740" started-at="2016-09-28T05:20:27Z" finished-at="2016-09-28T05:42:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RAPidLinkHeaderPreference -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ugc.scripts.RAPidLinkHeaderPreferences@26be92ad]" name="tearDown" is-config="true" duration-ms="16" started-at="2016-09-28T05:42:07Z" finished-at="2016-09-28T05:42:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="close(java.lang.String)[pri:0, instance:com.ugc.scripts.RAPidLinkHeaderPreferences@26be92ad]" name="close" is-config="true" duration-ms="0" started-at="2016-09-28T05:42:07Z" finished-at="2016-09-28T05:42:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'EUCQAW011', ip: '10.88.152.111', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=10, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:8756/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 8d80c50b-72b4-4b99-bf66-da3a53e77c4c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'EUCQAW011', ip: '10.88.152.111', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=10, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:8756/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 8d80c50b-72b4-4b99-bf66-da3a53e77c4c
+	at sun.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:521)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy12.close(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.close(EventFiringWebDriver.java:198)
+	at com.cigniti.accelerators.TestEngine.close(TestEngine.java:356)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:220)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1176)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1101)
+	at org.testng.TestNG.run(TestNG.java:1009)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="tearDownFirefox(org.testng.ITestContext, java.lang.String)[pri:0, instance:com.ugc.scripts.RAPidLinkHeaderPreferences@26be92ad]" name="tearDownFirefox" is-config="true" duration-ms="702" started-at="2016-09-28T05:42:09Z" finished-at="2016-09-28T05:42:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@50313382]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownFirefox -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestContext, java.lang.String)[pri:0, instance:com.ugc.scripts.RAPidLinkHeaderPreferences@26be92ad]" name="tearDown" is-config="true" duration-ms="31" started-at="2016-09-28T05:42:10Z" finished-at="2016-09-28T05:42:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@50313382]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ugc.scripts.RAPidLinkHeaderPreferences -->
+      <class name="com.ugc.scripts.RapidLinkHeaderUGCORPCOM_Navigation">
+        <test-method status="PASS" signature="first(org.testng.ITestContext, java.lang.String)[pri:0, instance:com.ugc.scripts.RapidLinkHeaderUGCORPCOM_Navigation@3ffc5af1]" name="first" is-config="true" duration-ms="1155" started-at="2016-09-28T05:42:07Z" finished-at="2016-09-28T05:42:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@50313382]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first -->
+        <test-method status="PASS" signature="reportHeader(java.lang.reflect.Method, org.testng.ITestContext, java.lang.String)[pri:0, instance:com.ugc.scripts.RapidLinkHeaderUGCORPCOM_Navigation@3ffc5af1]" name="reportHeader" is-config="true" duration-ms="15" started-at="2016-09-28T05:42:08Z" finished-at="2016-09-28T05:42:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ugc.scripts.RapidLinkHeaderUGCORPCOM_Navigation.RapidLink_Header_UGCORPCOM_Navigation() throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@50313382]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportHeader -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ugc.scripts.RapidLinkHeaderUGCORPCOM_Navigation@3ffc5af1]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-09-28T05:42:08Z" finished-at="2016-09-28T05:42:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close(java.lang.String)[pri:0, instance:com.ugc.scripts.RapidLinkHeaderUGCORPCOM_Navigation@3ffc5af1]" name="close" is-config="true" duration-ms="1124" started-at="2016-09-28T05:42:08Z" finished-at="2016-09-28T05:42:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="SKIP" signature="RapidLink_Header_UGCORPCOM_Navigation()[pri:0, instance:com.ugc.scripts.RapidLinkHeaderUGCORPCOM_Navigation@3ffc5af1]" name="RapidLink_Header_UGCORPCOM_Navigation" duration-ms="0" started-at="2016-09-28T05:42:08Z" finished-at="2016-09-28T05:42:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RapidLink_Header_UGCORPCOM_Navigation -->
+      </class> <!-- com.ugc.scripts.RapidLinkHeaderUGCORPCOM_Navigation -->
+    </test> <!-- MIGuide-3 -->
+  </suite> <!-- Execution -->
+</testng-results>

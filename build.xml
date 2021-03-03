@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE project [
+]>
+
+<project name="DEMO" default="run" basedir=".">
+
+	<!-- ========== Initialize Properties =================================== -->
+	<property environment="env" />
+
+	<property name="ws.home" value="${basedir}" />
+	<property name="ws.jars" value="C:\\Users\\Admin\\.m2\\repository" />
+	<property name="test.dest" value="${ws.h${user.home}ome}/build" />
+	<property name="test.src" value="${ws.home}/src" />
+	<property name="ng.result" value="test-output" />
+	<property name="cigniti.result" value="${ws.home}/Results" />
+	<property name="cigniti.zip" value="${ws.home}/zip" />
+
+	<target name="setClassPath" unless="test.classpath">
+		<path id="classpath_jars">
+
+			<fileset dir="${ws.jars}" includes="**/*.jar" />
+			<!-- <fileset dir="libs" includes="**/*.jar"/> -->
+
+		</path>
+		<pathconvert pathsep=":" property="test.classpath" refid="classpath_jars" />
+	</target>
+
+	<target name="init" depends="setClassPath">
+		<tstamp>
+			<format property="start.time" pattern="MM/dd/yyyy hh:mm aa" />
+		</tstamp>
+		<condition property="ANT" value="${env.ANT_HOME}/bin/ant.bat"
+			else="${env.ANT_HOME}/bin/ant">
+			<os family="windows" />
+		</condition>
+		<!-- <taskdef name="testng" classpath="${test.classpath}" classname="org.testng.TestNGAntTask" />  -->
+
+	</target>
+
+	<!-- all -->
+	<target name="all">
+	</target>
+
+	<!-- clean -->
+	<target name="clean">
+		<delete dir="${test.dest}" />
+	</target>
+
+	<!-- compile -->
+	<target name="compile" depends="init, clean">
+		<delete includeemptydirs="true" quiet="true">
+			<fileset dir="${test.dest}" includes="**/*" />
+			<fileset dir="${cigniti.result}" includes="**/*" />
+		</delete>
+		<echo message="making directory..." />
+		<mkdir dir="${test.dest}" />
+		<echo message="compiling..." />
+		<javac debug="true" destdir="${test.dest}" srcdir="${test.src}"
+			target="1.8" classpath="${test.classpath}">
+		</javac>
+	</target>
+
+	<!-- build -->
+	<target name="build" depends="init">
+	</target>
+
+
+	<!-- run -->
+
+	<target name="run" depends="compile">
+		<testng classpath="${test.classpath}:${test.dest}" suitename="Execution">
+			<xmlfileset dir="${ws.home}" includes="testng.xml" />
+
+		</testng>
+	</target>
+
+	<target name="usage">
+		<echo>
+			ant run will execute the test
+		</echo>
+	</target>
+
+	<path id="test.c">
+		<fileset dir="${ws.jars}" includes="*.jar" />
+	</path>
+
+	<!-- ****************** targets not used ****************** -->
+
+</project>

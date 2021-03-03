@@ -1,0 +1,199 @@
+<html>
+<head>
+<title>TestNG:  MIGuideCC</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>MIGuideCC</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Sep 07 22:43:14 EDT 2016</td>
+</tr>
+<tr><td>Total time:</td><td>2124 seconds (2124357 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.ugc.scripts.NewApplication_CreateNewApplication_BPA.NewApplication_CreateNewApplication_BPA_()'><b>NewApplication_CreateNewApplication_BPA_</b><br>Test class: com.ugc.scripts.NewApplication_CreateNewApplication_BPA<br>Parameters: , AUTOBPA, SELENIUMTEST, NO, NO, Retail, 25, BP, BPA, , , , MI, Handle With Care., autotest123@ugcorp.com, 4156549870, 0000000000, NewApplication_CreateNewApplication_BPA.doc, N</td>
+<td></td>
+<td>61</td>
+<td>com.ugc.scripts.NewApplication_CreateNewApplication_BPA@4fe767f3</td></tr>
+<tr>
+<td title='com.ugc.scripts.NewApplication_CreateNewApplication_BPM.NewApplication_CreateNewApplication_BPM_()'><b>NewApplication_CreateNewApplication_BPM_</b><br>Test class: com.ugc.scripts.NewApplication_CreateNewApplication_BPM<br>Parameters: , AUTOBPM, SELENIUMTEST, NO, NO, Retail, 25, BP, BPM, , , YES, MI, Handle With Care., autotest123@ugcorp.com, 4156549870, 0000000000, NewApplication_CreateNewApplication_BPM.doc, N</td>
+<td></td>
+<td>52</td>
+<td>com.ugc.scripts.NewApplication_CreateNewApplication_BPM@2805c96b</td></tr>
+<tr>
+<td title='com.ugc.scripts.NewApplication_CreateNewApplication_BPSL.NewApplication_CreateNewApplication_BPSL_()'><b>NewApplication_CreateNewApplication_BPSL_</b><br>Test class: com.ugc.scripts.NewApplication_CreateNewApplication_BPSL<br>Parameters: , AUTOBPSL, SELENIUMTEST, NO, NO, Retail, 25, BP, Single Refundable, NO, , , MI, Handle With Care., autotest123@ugcorp.com, 4156549870, 0000000000, NewApplication_CreateNewApplication_BPSL.doc, N</td>
+<td></td>
+<td>51</td>
+<td>com.ugc.scripts.NewApplication_CreateNewApplication_BPSL@5db250b4</td></tr>
+<tr>
+<td title='com.ugc.scripts.NewApplication_CreateNewApplication_BPSM.NewApplication_CreateNewApplication_BPSM_()'><b>NewApplication_CreateNewApplication_BPSM_</b><br>Test class: com.ugc.scripts.NewApplication_CreateNewApplication_BPSM<br>Parameters: , AUTOBPSM, SELENIUMTEST, NO, NO, Retail, 25, BP, Split Premium Monthly, NO, 2, NO, MI, Handle With Care., autotest123@ugcorp.com, 4156549870, 0000000000, NewApplication_CreateNewApplication_BPSM.doc, N</td>
+<td></td>
+<td>51</td>
+<td>com.ugc.scripts.NewApplication_CreateNewApplication_BPSM@38c5cc4c</td></tr>
+<tr>
+<td title='com.ugc.scripts.NewApplication_CreateNewApplication_BPSN.NewApplication_CreateNewApplication_BPSN_()'><b>NewApplication_CreateNewApplication_BPSN_</b><br>Test class: com.ugc.scripts.NewApplication_CreateNewApplication_BPSN<br>Parameters: , AUTOBPSN, SELENIUMTEST, NO, NO, Retail, 25, BP, Single Non-Refundable, NO, , , MI, Handle With Care., autotest123@ugcorp.com, 4156549870, 0000000000, NewApplication_CreateNewApplication_BPSN.doc, N</td>
+<td></td>
+<td>51</td>
+<td>com.ugc.scripts.NewApplication_CreateNewApplication_BPSN@223f3642</td></tr>
+<tr>
+<td title='com.ugc.scripts.NewApplication_CreateNewApplication_LPA.NewApplication_CreateNewApplication_LPA_()'><b>NewApplication_CreateNewApplication_LPA_</b><br>Test class: com.ugc.scripts.NewApplication_CreateNewApplication_LPA<br>Parameters: , AUTOLPA, SELENIUMTEST, NO, NO, Retail, 25, LP, LPA, , , , MI, Handle With Care., autotest123@ugcorp.com, 4156549870, 0000000000, NewApplication_CreateNewApplication_LPA.doc, N</td>
+<td></td>
+<td>52</td>
+<td>com.ugc.scripts.NewApplication_CreateNewApplication_LPA@184cf7cf</td></tr>
+<tr>
+<td title='com.ugc.scripts.NewApplication_CreateNewApplication_LPM.NewApplication_CreateNewApplication_LPM_()'><b>NewApplication_CreateNewApplication_LPM_</b><br>Test class: com.ugc.scripts.NewApplication_CreateNewApplication_LPM<br>Parameters: , AUTOLPM, SELENIUMTEST, NO, NO, Retail, 25, LP, LPM, , , YES, MI, Handle With Care., autotest123@ugcorp.com, 4156549870, 0000000000, NewApplication_CreateNewApplication_LPM.doc, N</td>
+<td></td>
+<td>53</td>
+<td>com.ugc.scripts.NewApplication_CreateNewApplication_LPM@2fd6b6c7</td></tr>
+<tr>
+<td title='com.ugc.scripts.NewApplication_CreateNewApplication_LPS.NewApplication_CreateNewApplication_LPS_()'><b>NewApplication_CreateNewApplication_LPS_</b><br>Test class: com.ugc.scripts.NewApplication_CreateNewApplication_LPS<br>Parameters: , AUTOLPS, SELENIUMTEST, NO, NO, Retail, 25, LP, LPS, , , , MI, Handle With Care., autotest123@ugcorp.com, 4156549870, 0000000000, NewApplication_CreateNewApplication_LPS.doc, N</td>
+<td></td>
+<td>65</td>
+<td>com.ugc.scripts.NewApplication_CreateNewApplication_LPS@5bfa9431</td></tr>
+<tr>
+<td title='com.ugc.scripts.ResubmitQuote_SuccessfulQuote.ResubmitQuote_SuccessfulQuote_()'><b>ResubmitQuote_SuccessfulQuote_</b><br>Test class: com.ugc.scripts.ResubmitQuote_SuccessfulQuote<br>Parameters: RSQSUCC, , 180000, 360, Fixed, 3.25, 85, 85, Purchase, None, NO, NO, Desktop Underwriter, Approve/Eligible, Retail, 27401, Single Family Detached, Primary, 100, 100, 100, YES, NO, 7500, 750, 730, NO, 22, BP, Monthly, 2, , , , , 200000, , , 4, , , , , , , None, , , , , , , , , , , 8000, 800, 760, , 25, , , , , , , , 150000, , , 3.15, , , , , , , , , , , , , , , , , , , , , , , , Annual, , , </td>
+<td></td>
+<td>600</td>
+<td>com.ugc.scripts.ResubmitQuote_SuccessfulQuote@222114ba</td></tr>
+<tr>
+<td title='com.ugc.scripts.TC_001_NGQ_External_NewQuotes_BPA.TC_001_NGQ_External_NewQuotes_BPA_()'><b>TC_001_NGQ_External_NewQuotes_BPA_</b><br>Test class: com.ugc.scripts.TC_001_NGQ_External_NewQuotes_BPA<br>Parameters: CNQBPA, , 200000, 360, Fixed, 4, 85, 85, Purchase, None, NO, NO, Desktop Underwriter, Approve/Eligible, Retail, 27401, Single Family Detached, Primary, 100, 100, 100, YES, NO, 8000, 800, 760, NO, 25, BP, BPA, , , </td>
+<td></td>
+<td>81</td>
+<td>com.ugc.scripts.TC_001_NGQ_External_NewQuotes_BPA@60704c</td></tr>
+<tr>
+<td title='com.ugc.scripts.TC_002_NGQ_External_NewQuotes_BPM.TC_002_NGQ_External_NewQuotes_BPM_()'><b>TC_002_NGQ_External_NewQuotes_BPM_</b><br>Test class: com.ugc.scripts.TC_002_NGQ_External_NewQuotes_BPM<br>Parameters: CNQBPM, , 200000, 360, Fixed, 4, 85, 85, Purchase, None, NO, NO, None, , Retail, 27401, Single Family Detached, Primary, 100, 100, 100, YES, NO, 8000, 800, 760, NO, 25, BP, BPM, , , </td>
+<td></td>
+<td>53</td>
+<td>com.ugc.scripts.TC_002_NGQ_External_NewQuotes_BPM@6b19b79</td></tr>
+<tr>
+<td title='com.ugc.scripts.TC_003_NGQ_External_NewQuotes_BPSNR.TC_003_NGQ_External_NewQuotes_BPSNR_()'><b>TC_003_NGQ_External_NewQuotes_BPSNR_</b><br>Test class: com.ugc.scripts.TC_003_NGQ_External_NewQuotes_BPSNR<br>Parameters: CNQBPSNR, , 200000, 360, Fixed, 4, 85, 85, Purchase, None, NO, NO, None, , Retail, 27401, Single Family Detached, Primary, 100, 100, 100, YES, NO, 8000, 800, 760, NO, 25, BP, Single Non-Refundable, NO, , </td>
+<td></td>
+<td>48</td>
+<td>com.ugc.scripts.TC_003_NGQ_External_NewQuotes_BPSNR@2a32de6c</td></tr>
+<tr>
+<td title='com.ugc.scripts.TC_004_NGQ_External_NewQuotes_BPSR.TC_004_NGQ_External_NewQuotes_BPSR_()'><b>TC_004_NGQ_External_NewQuotes_BPSR_</b><br>Test class: com.ugc.scripts.TC_004_NGQ_External_NewQuotes_BPSR<br>Parameters: CNQBPSR, , 200000, 360, Fixed, 4, 85, 85, Purchase, None, NO, NO, None, , Retail, 27401, Single Family Detached, Primary, 100, 100, 100, YES, NO, 8000, 800, 760, NO, 25, BP, Single Refundable, NO, , </td>
+<td></td>
+<td>43</td>
+<td>com.ugc.scripts.TC_004_NGQ_External_NewQuotes_BPSR@7692d9cc</td></tr>
+<tr>
+<td title='com.ugc.scripts.TC_005_NGQ_External_NewQuotes_BPSplit.TC_005_NGQ_External_NewQuotes_BPSplit_()'><b>TC_005_NGQ_External_NewQuotes_BPSplit_</b><br>Test class: com.ugc.scripts.TC_005_NGQ_External_NewQuotes_BPSplit<br>Parameters: CNQBPS, , 200000, 360, Fixed, 4, 85, 85, Purchase, None, NO, NO, None, , Retail, 27401, Single Family Detached, Primary, 100, 100, 100, YES, NO, 8000, 800, 760, NO, 25, BP, Split Premium Monthly, NO, 2, </td>
+<td></td>
+<td>44</td>
+<td>com.ugc.scripts.TC_005_NGQ_External_NewQuotes_BPSplit@75f32542</td></tr>
+<tr>
+<td title='com.ugc.scripts.TC_006_NGQ_External_NewQuotes_LPA.TC_006_NGQ_External_NewQuotes_LPA_()'><b>TC_006_NGQ_External_NewQuotes_LPA_</b><br>Test class: com.ugc.scripts.TC_006_NGQ_External_NewQuotes_LPA<br>Parameters: CNQLPA, , 200000, 360, Fixed, 4, 85, 85, Purchase, None, NO, NO, Desktop Underwriter, Approve/Eligible, Retail, 27401, Single Family Detached, Primary, 100, 100, 100, YES, NO, 8000, 800, 760, NO, 25, LP, LPA, , , </td>
+<td></td>
+<td>42</td>
+<td>com.ugc.scripts.TC_006_NGQ_External_NewQuotes_LPA@7f1302d6</td></tr>
+<tr>
+<td title='com.ugc.scripts.TC_007_NGQ_External_NewQuotes_LPM.TC_007_NGQ_External_NewQuotes_LPM_()'><b>TC_007_NGQ_External_NewQuotes_LPM_</b><br>Test class: com.ugc.scripts.TC_007_NGQ_External_NewQuotes_LPM<br>Parameters: CNQLPM, , 200000, 360, Fixed, 4, 85, 85, Purchase, None, NO, NO, Desktop Underwriter, Approve/Eligible, Retail, 27401, Single Family Detached, Primary, 100, 100, 100, YES, NO, 8000, 800, 760, NO, 25, LP, LPM, , , </td>
+<td></td>
+<td>44</td>
+<td>com.ugc.scripts.TC_007_NGQ_External_NewQuotes_LPM@43ee72e6</td></tr>
+<tr>
+<td title='com.ugc.scripts.TC_008_NGQ_External_NewQuotes_LPS.TC_008_NGQ_External_NewQuotes_LPS_()'><b>TC_008_NGQ_External_NewQuotes_LPS_</b><br>Test class: com.ugc.scripts.TC_008_NGQ_External_NewQuotes_LPS<br>Parameters: CNQLPS, , 200000, 360, Fixed, 4, 85, 85, Purchase, None, NO, NO, Desktop Underwriter, Approve/Eligible, Retail, 27401, Single Family Detached, Primary, 100, 100, 100, YES, NO, 8000, 800, 760, NO, 25, LP, Single, , , </td>
+<td></td>
+<td>49</td>
+<td>com.ugc.scripts.TC_008_NGQ_External_NewQuotes_LPS@23529fee</td></tr>
+<tr>
+<td title='com.ugc.scripts.UploadDocument_ErrorDuringUploadBigFile_ExistingApplication.UploadDocument_ErrorDuringUploadBigFile_ExistingApplication_()'><b>UploadDocument_ErrorDuringUploadBigFile_ExistingApplication_</b><br>Test class: com.ugc.scripts.UploadDocument_ErrorDuringUploadBigFile_ExistingApplication<br>Parameters: MultipleDocs_Doc1.doc, BIGZIP.zip, MultipleDocs_Doc1.doc, BIGZIP.zip;MultipleDocs_Doc1.doc, MultipleDocs_Doc2.doc</td>
+<td></td>
+<td>84</td>
+<td>com.ugc.scripts.UploadDocument_ErrorDuringUploadBigFile_ExistingApplication@ec756bd</td></tr>
+<tr>
+<td title='com.ugc.scripts.UploadDocument_ErrorDuringUploadBigFile_NewApplication.UploadDocument_ErrorDuringUploadBigFile_NewApplication_()'><b>UploadDocument_ErrorDuringUploadBigFile_NewApplication_</b><br>Test class: com.ugc.scripts.UploadDocument_ErrorDuringUploadBigFile_NewApplication<br>Parameters: , AUTOBigFile, SELENIUMTEST, NO, NO, Retail, 25, BP, BPA, , , , MI, Handle With Care., autotest123@ugcorp.com, 4156549870, 0000000000, MultipleDocs_Doc1.doc, N, BIGZIP.zip, MultipleDocs_Doc1.doc, BIGZIP.zip;MultipleDocs_Doc1.doc, MultipleDocs_Doc2.doc</td>
+<td></td>
+<td>98</td>
+<td>com.ugc.scripts.UploadDocument_ErrorDuringUploadBigFile_NewApplication@3c72f59f</td></tr>
+<tr>
+<td title='com.ugc.scripts.UploadDocument_MultipleDocs_ExistingApplication.UploadDocument_MultipleDocs_ExistingApplication_()'><b>UploadDocument_MultipleDocs_ExistingApplication_</b><br>Test class: com.ugc.scripts.UploadDocument_MultipleDocs_ExistingApplication<br>Parameters: MultipleDocs_Doc1.doc;MultipleDocs_Doc2.doc;MultipleDocs_Doc3.doc</td>
+<td></td>
+<td>62</td>
+<td>com.ugc.scripts.UploadDocument_MultipleDocs_ExistingApplication@233fe9b6</td></tr>
+<tr>
+<td title='com.ugc.scripts.UploadDocument_MultipleDocs_NewApplication.UploadDocument_MultipleDocs_NewApplication_()'><b>UploadDocument_MultipleDocs_NewApplication_</b><br>Test class: com.ugc.scripts.UploadDocument_MultipleDocs_NewApplication<br>Parameters: , AUTOMDNA, SELENIUMTEST, NO, NO, Retail, 25, BP, BPA, , , , MI, Handle With Care., autotest123@ugcorp.com, 4156549870, 0000000000, MultipleDocs_Doc1.doc;MultipleDocs_Doc2.doc;MultipleDocs_Doc3.doc, N</td>
+<td></td>
+<td>65</td>
+<td>com.ugc.scripts.UploadDocument_MultipleDocs_NewApplication@358ee631</td></tr>
+<tr>
+<td title='com.ugc.scripts.UploadDocument_NoDocsUploaded_ExistingApplication.UploadDocument_NoDocsUploaded_ExistingApplication_()'><b>UploadDocument_NoDocsUploaded_ExistingApplication_</b><br>Test class: com.ugc.scripts.UploadDocument_NoDocsUploaded_ExistingApplication</td>
+<td></td>
+<td>41</td>
+<td>com.ugc.scripts.UploadDocument_NoDocsUploaded_ExistingApplication@37918c79</td></tr>
+<tr>
+<td title='com.ugc.scripts.UploadDocument_NoDocsUploaded_NewApplication.UploadDocument_NoDocsUploaded_NewApplication_()'><b>UploadDocument_NoDocsUploaded_NewApplication_</b><br>Test class: com.ugc.scripts.UploadDocument_NoDocsUploaded_NewApplication<br>Parameters: , AUTONDNA, SELENIUMTEST, NO, NO, Retail, 25, BP, BPA, , , , MI, Handle With Care., autotest123@ugcorp.com, 4156549870, 0000000000, ;ugc.png;UploadDocument_NoDocsUploaded_NewApplication.doc, Y;Y;N</td>
+<td></td>
+<td>56</td>
+<td>com.ugc.scripts.UploadDocument_NoDocsUploaded_NewApplication@78e94dcf</td></tr>
+<tr>
+<td title='com.ugc.scripts.UploadDocument_RemoveDocumentFromApplication.UploadDocument_RemoveDocumentFromApplication_()'><b>UploadDocument_RemoveDocumentFromApplication_</b><br>Test class: com.ugc.scripts.UploadDocument_RemoveDocumentFromApplication<br>Parameters: , AUTORD, SELENIUMTEST, NO, NO, Retail, 25, BP, BPA, , , , MI, Handle With Care., autotest123@ugcorp.com, 4156549870, 0000000000, RemoveDoc_Doc1.doc, N, RemoveDoc_Doc2.doc;RemoveDoc_Doc3.doc, RemoveDoc_Doc4.doc</td>
+<td></td>
+<td>174</td>
+<td>com.ugc.scripts.UploadDocument_RemoveDocumentFromApplication@60dcc9fe</td></tr>
+</table><p>
+</body>
+</html>
